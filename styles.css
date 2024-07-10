@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e4d7; /* Cor de fundo agradável */
+  }
+  
+  #map {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: 10px solid #8b5a2b; /* Cor da moldura */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    border-radius: 20px; /* Borda arredondada para parecer uma moldura */
+  }
+  
+  /* Defina um ícone invisível com dimensões 0x0 */
+.invisible-icon {
+    background: transparent;
+    border: none;
+    width: 5px;
+    height: 5px;
+}
